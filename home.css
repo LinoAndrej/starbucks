@@ -1,0 +1,319 @@
+.navigacija
+{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#sajt_div
+{
+    display: flex;
+    flex-direction: column;
+}
+#nav_div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 2px rgb(220, 220, 220);
+}
+#strana1
+{
+    width: 46px;
+    height: 100px;
+}
+#logo_slika
+{
+    margin-left: 100px;
+    width: 91px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#logo
+{
+    width: 51px;
+    height: 53px;
+}
+#nav1
+{
+    margin-left: 100px;
+    width: 460px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+}
+#nav2
+{
+    width: 520px;
+    height: 100px;
+    
+}
+#nav3
+{
+    width: 470px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ; 
+}
+#paragraf
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+#link1:hover
+{
+    color: green;
+}
+#div_fs
+{
+    margin-right: 40px;
+}
+#link1
+{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    
+}
+#nav_txt
+{
+    margin-right: 23px;
+}
+#div_dugme1
+{
+    height: 100px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#dugme1
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;    
+}
+#div_dugme2
+{
+    height: 100px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#dugme2
+{
+    width: 115px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;  
+}
+#dugme2:hover
+{
+    background-color: rgb(220, 220, 220);
+}
+#dugme1:hover
+{
+    background-color: rgb(220, 220, 220);
+}
+body
+{
+    margin: 0px;
+}
+#prazni_red
+{
+    width: 100vw;
+    height: 20px;
+}
+#sajt_div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+#deo_za_kartice
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;    
+}
+#div_za_kartice
+{
+    width: 1250px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+}
+#kartica
+{
+    width: 1000px;
+    height: 495px;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;    
+}
+#slika_kartica
+{
+    width: 400px;
+    height: 400px;
+}
+#div_za_sliku
+{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div_za_text
+{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div_za_linkove
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 360px;
+    border-bottom: solid 2px rgb(220, 220, 220);
+    margin-left: 270px;
+}
+#linkovi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    height: 360px;
+
+}
+
+#prazna_kolona
+{
+    width: 700px;
+    height: 360px;    
+}
+#h2_linkovi
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;    
+}
+#link_linkovi
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;    
+}
+#link_linkovi:hover
+{
+    color: gray;
+}
+#link3
+{
+    color: black;
+}
+#deo_za_link
+{
+    border-bottom: solid 2px rgb(220, 220, 220);
+}
+#dugme3
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+#dugmad_div
+{
+
+}
+#zadnji_deo
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    
+}
+#div_link
+{
+    padding-right: 15px;
+    border-right: solid 2px black;
+}
+#div_link1
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: solid 2px black;    
+}
+#div_link2
+{
+    padding-left: 15px;    
+}
+#div_za_linkove1
+{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 20px;
+}
+#link4
+{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: black;    
+}
+#link4:hover
+{
+    text-decoration: underline;
+}
